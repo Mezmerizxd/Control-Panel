@@ -1,0 +1,71 @@
+.container{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.input-form{
+    font-family: Arial;
+    margin-top: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.input-form .title{
+    text-align: center;
+    padding: 20px 20px;
+    color: rgb(200, 200, 200);
+}
+
+.form-controls .inputs{
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+.form-controls input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-controls input[type=submit] {
+    width: 100%;
+    background-color: rgb(70, 70, 130);
+    color: rgb(200, 200, 200);
+    font-size: medium;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-controls input[type=submit]:hover {
+    background-color: rgb(50, 50, 50);
+}
+.form-controls label{
+    color: rgb(200, 200, 200);
+}
+
+.input-form .success{
+    background: rgb(50, 50, 50);
+    color: rgb(50, 230, 50);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.input-form .error{
+    background: rgb(50, 50, 50);
+    color: rgb(230, 50, 50);
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: large;
+}
+
