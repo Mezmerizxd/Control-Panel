@@ -33,6 +33,7 @@
             <?php if (isset($_GET['error'])) { ?><p class="error"><?php echo $_GET['error']; ?></p><?php } ?>
             <?php if (isset($_GET['success'])) { ?> <p class="success"><?php echo $_GET['success']; ?></p><?php } ?>
         </form>
+        <p class="watermark">Created by SpetsnazSicario</p>
     </div>
     <?php }elseif($_SESSION["waiting_for_code"]){ ?>
         <div class="container">
@@ -44,9 +45,12 @@
                 <div class="form-controls">
                     <input type="number" name="number">
                     <input type="submit" value="Confirm">
+                    <a href="api/api-logout.php" class="cancel"><p>Cancel</p></a>
                 </div>
             </form>
+            <p class="watermark">Created by SpetsnazSicario</p>
         </div>
+        
     <?php } ?>  
 
 </body>

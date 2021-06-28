@@ -11,10 +11,20 @@ if($_SESSION["logged_in"] = true && isset($_SESSION["id"]) && isset($_SESSION["u
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/navigation.css">
     <title>Dashboard</title>
 </head>
 <body>
-    <input type="button" value="Logout" onclick="logout()">
+    
+
+    <ul class="navigation">
+        <li><a href="/" data-link>Dashboard</a></li>
+        <li><a href="/link2" data-link>Link2</a></li>
+        <li><a href="/link3" data-link>Link3</a></li>
+        <li><a onclick="logout()">Logout</a></li>
+    </ul>
+
+    <script type="module" src="/static/js/index.js"></script>
     <script>
         function logout(){
             location.replace("api/api-logout.php")

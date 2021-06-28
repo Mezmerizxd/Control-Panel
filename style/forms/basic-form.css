@@ -6,7 +6,6 @@
 }
 
 .input-form{
-    font-family: Arial;
     margin-top: 40px;
     padding: 10px 10px;
     border-radius: 5px;
@@ -69,3 +68,16 @@
     font-size: large;
 }
 
+.cancel{
+    text-align: center;
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+
+.watermark{
+    text-align: center;
+    color: rgb(200, 200, 200);
+    font-size: small;
+    padding: 5px 5px;
+}

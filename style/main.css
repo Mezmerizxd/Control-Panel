@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+    font-family: Arial;
+}
+
 body{
     background-color: rgb(40, 40, 50);
+}
+
+a{
+    color: rgb(70, 70, 130);
+    text-decoration: none;
 }
