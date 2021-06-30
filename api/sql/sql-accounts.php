@@ -1,7 +1,7 @@
 <?php
 
 $sname= "localhost";
-$unmae= "root";
+$unmae= "";
 $password = "";
 
 $db_name = "control-panel-accounts";

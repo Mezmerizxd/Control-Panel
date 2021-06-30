@@ -6,20 +6,59 @@
     top: 0; left: 0;
     background-color: rgb(20, 20, 20);
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
 
+.navigation h1{
+    color: rgb(200, 200, 200);
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border-bottom: 4px rgb(70, 70, 130) solid;
+    text-align: center;
 }
 
 .navigation li{
-    padding: 10px 10px;
-    margin-top: 10px;
-    padding-left: 40px;
+    padding: 15px 15px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    border-radius: 3px;
 }
 .navigation li:hover{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(70, 70, 130);
 }
-
-.navigation li a{
+.navigation i{
+    padding-right: 10px;
+}
+.navigation a li{
     color: rgb(200, 200, 200);
     text-decoration: none;
 }
+.navigation .nav-container{
+    height: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.navigation .nav-container .nav-contents{
+    overflow-y: scroll;
+    height: calc(100% - 125px); 
+}
 
+#logout li{
+    background-color: rgb(70, 70, 130);
+}
+#logout li:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff00;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
