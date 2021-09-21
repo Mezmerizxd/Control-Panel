@@ -31,6 +31,7 @@ if(isset($_GET["home"])){
                 <a href="?home"><li><i class="fas fa-house-user"></i>Home</li></a>
                 <a href="?managment"><li><i class="fas fa-tasks"></i>Managment</li></a>
                 <a href="?settings"><li><i class="fas fa-cog"></i>Settings</li></a>
+                <a href="?more"><li><i class="fas fa-cog"></i>More</li></a>
 
             </div>
             <a id="logout" onclick="location.replace('api/api-logout.php')"><li><i class="fas fa-sign-out-alt"></i>Logout</li></a>
